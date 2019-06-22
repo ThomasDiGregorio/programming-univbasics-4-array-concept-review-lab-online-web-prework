@@ -35,7 +35,17 @@ def find_min_value(array)
   return min 
 end
 
-
+def find_min_value(array)
+  counter = 0 
+  min =array[0]  
+  while array[counter] do
+    if array[counter] < min 
+      min = array[counter]
+    end
+    counter += 1   
+  end
+  return min 
+end
 
 
 
